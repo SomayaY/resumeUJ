@@ -1,0 +1,67 @@
+@import url(//fonts.googleapis.com/css?family=Acme);
+
+
+
+body {
+
+    background-color: #edb7c8;
+    margin: 0;
+
+}
+
+nav{
+    background-color: #c94a72; 
+    width: 100%; 
+    height: auto;
+    position: fixed;
+    
+}
+
+.ulNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+}
+
+.liNav {
+    float: right;
+}
+
+.liNav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-family:'Acme';
+    font-size: 20px;
+
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #e388a5;
+}
+
+.liName {
+
+    text-align: left;
+
+}
+
+.liName h4 {
+
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 20px 16px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-family: 'Acme';
+    font-size: 20px;
+
+}
