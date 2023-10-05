@@ -15,5 +15,26 @@ body {
 
 li a:hover {
     background-color: #e388a5;
+    border: #ffffff solid;
+    border-radius: 5px;
 }
 
+.personalImg {
+    width: 25rem;
+}
+
+.nav-link {
+    font-size: 1.5em;
+}
+
+.navMinTitle{
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; */
+    font-size: 2em;
+}
+
+
+.headerDiv{
+
+    color: #e388a5;
+}
