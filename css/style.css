@@ -38,3 +38,31 @@ li a:hover {
 
     color: #e388a5;
 }
+.card{
+    border:5px solid #edb7c8;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card-img-top{
+    border-radius: 3px;
+}
+.btn-outline-light{
+
+    color: #edb7c8;
+    border-color: #edb7c5;
+}
+.card-title{
+    color: #c94a72;;
+}
+
+.card-text{
+    color:#e388a5 ;
+}
+
+.btn-outline-light:hover{
+    color: #edb7c8;
+    border-color: #edb7c5;
+    background-color: #c94a72;
+
+}
