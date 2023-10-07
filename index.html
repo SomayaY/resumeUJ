@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Personal Resume</title>
 </head>
@@ -27,7 +28,7 @@
                         <a class="nav-link" href="#Education">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -38,7 +39,6 @@
         <div class="container d-flex  align-items-center flex-column p-5  headerDiv">
             <img src="images/pnghut_user-profile-female-avatar-neck.png" class="personalImg">
             <h1 style="color: #c94a72;">Somaya Rajab</h1>
-            <p>________________________________________________________________</p>
             <h2>Software Engineering Student</h2>
         </div>
     </header>
@@ -91,19 +91,87 @@
         </div>
     </section>
 
-    <!--about me section  -->
-    <section id="Education">
+    <!--Education section  -->
+    <section class="py-4" id="Education">
       <div class="container">
-        <h2 class="text-center pt-5" style="color: #ffffff;">Education</h2>
-        <p class="text-center" style="color: #ffffff;">I have studied Software Engineering in
-            University of Jeddah since 2020 and I have still learned English since 2023, 
+        <h2 class="text-center mt-5" style="color: #ffffff;">Education</h2>
+        <p class="text-center mb-5" style="color: #ffffff;">I have studied Software Engineering in
+            University of Jeddah since 2020 and I have learned English at Nesma Center since 2023, 
             and I joined some courses online in the summer.</p>
 
       </div>
     </section>
 
-    <!-- footer -->
+    <!-- contact section -->
+    <section class="py-4" style="background-color: #e388a5;" id="contact">
+        <div class="container containerContact">
+            <div class="cardContact">
+                <div class="form">
+                    <div class="left-side">
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                        <span class="line3"></span>
+                        <div class="contact-us">
+                            <p>Contact Me</p>
+                        </div>
+                        <div class="social">
+                                <i class="fa fa-facebook-f"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-dribbble"></i>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="top-div">
+                            <h2>Get in touch !</h2>
+                            <p>Contact me for a help or to request a service.</p>
+                        </div>
+                        <div class="stats">
+                            <div class="stats1">
+                                <i class="fa fa-map-marker"></i>
+                                <span>102 Street<br>2714 DONNZY</span>
+                            </div>
+                            <div class="stats1">
+                                <i class="fa fa-phone"></i>
+                                <span>+966 5093 29433</span>
+                            </div>
+                            <div class="stats1">
+                                <i class="fa fa-envelope"></i>
+                                <span>somaya@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <span>
+                                <div class="input-text">
+                                    <input type="text" required="required">
+                                    <small>Name</small>
+                                </div>   
+                                 <div class="input-text">
+                                    <input type="text" required="required">
+                                    <small>E-mail</small>
+                                </div>   
+                                <div class="textarea">
+                                    <textarea required="required"></textarea>
+                                    <small>Message</small>
+                                </div>
+                              
+                            </span>
+                        </div>
+                        <div class="buttons">
+                            <button>SEND</button>
+                        </div>
+                    
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 
 </html>
