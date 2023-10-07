@@ -9,34 +9,26 @@ body {
 
 
 }
-
-
 header h1{
     border-bottom:2px solid #e388a5;
     padding-bottom: 10px;
 }
-
 li a:hover {
     background-color: #e388a5;
     border: #ffffff solid;
     border-radius: 5px;
 }
-
 .personalImg {
     width: 25rem;
 }
-
 .nav-link {
     font-size: 1.5em;
 }
-
 .navMinTitle{
     /* -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black; */
     font-size: 2em;
 }
-
-
 .headerDiv{
 
     color: #e388a5;
@@ -51,7 +43,6 @@ li a:hover {
     box-shadow:2px 2px 20px 5px #edb7c5;
     border:3px solid #e388a5;
 }
-
 .card-img-top{
     border-radius: 3px;
     border:3px solid #ffffff;
@@ -67,18 +58,15 @@ li a:hover {
 .card-title{
     color: #c94a72;;
 }
-
 .card-text{
     color:#e388a5 ;
 }
-
 .btn-outline-light:hover{
     color: #edb7c8;
     border-color: #edb7c5;
     background-color: #c94a72;
 
 }
-
 .containerContact{
     min-height:100vh;
     display:flex;
@@ -150,7 +138,6 @@ li a:hover {
     top:20px;
     left:30px;
 }
-
 .left-side .social{
     display:flex;
    
@@ -192,7 +179,6 @@ li a:hover {
 .left-side:hover .social i{
     bottom:0;
 }
-
 /*left-side-end*/
 .right-side{
     width:70%;
@@ -239,7 +225,6 @@ li a:hover {
    
     transform:scale(1.3);
 } */
-
 
 .stats1 span{
     font-size:12px;
@@ -343,20 +328,6 @@ input[type='text']{
     bottom:-20px;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*right-side-end*/
 @media (max-width:750px) {
